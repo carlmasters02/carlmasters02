@@ -41,6 +41,7 @@
 
 | 项目 | 用途 | 技术 |
 | --- | --- | --- |
+| [AEGIS-threat-dashboard](https://github.com/carlmasters02/AEGIS-threat-dashboard) | 一个 SOC 风格的威胁运营仪表盘，配有 3D 热力图地球，完全基于公开的实时威胁情报构建：Cloudflare Radar 的攻击路径、ransomware.live 的泄露站点受害者、附带 EPSS 评分的 CISA KEV、SANS ISC DShield，以及 abuse.ch 的僵尸网络 C2 数据源。没有任何模拟数据；某个数据源不可用时，对应面板会如实标明。一个零依赖的 Node 代理缓存所有数据源，以遵守上游的速率限制。在线地址：[aegisthreatdashboard.com](https://aegisthreatdashboard.com)。 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white) |
 | [network-protocol-analyzer](https://github.com/carlmasters02/network-protocol-analyzer) | 一个实时数据包分析器，完全手写地从原始字节解析 Ethernet、IPv4、TCP/UDP 和 DNS，不依赖任何解析库。它把结果流式输出到终端界面，导出可供 Wireshark 使用的 PCAP，并在端口扫描、DNS 隧道和 ARP 欺骗发生的当下就发出告警。 | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white) |
 | [python-static-analyzer](https://github.com/carlmasters02/python-static-analyzer) | 不运行程序就能在 Python 源码中找出 SQL 注入和命令注入，通过 AST 解析加上从源到汇的污点追踪，报告出问题的文件、行号，以及它为什么可被利用。查准率与查全率均在带标注的漏洞样本上做过基准测试。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 | [coverage-guided-fuzzer](https://github.com/carlmasters02/coverage-guided-fuzzer) | 一个 AFL 风格的模糊测试工具，依据覆盖率反馈而不是盲目猜测来变异输入以发现崩溃，再把每个崩溃缩减到能够复现的最小用例。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
@@ -54,6 +55,15 @@
 | 项目 | 用途 | 技术 |
 | --- | --- | --- |
 | [FocusHear](https://focus-hear-app.vercel.app/) | 一个面向听障人士的实时辅助沟通平台。现有的字幕应用都是把在场所有人同时转写出来，让用户被层层叠叠的话音淹没；FocusHear 让你自己选择想听谁的声音，具备选择性聆听、用于 ASL 指拼的手语桥接，以及基于声纹注册的说话人分离。它在 48 小时内完成，拿下 SDGs to Startups 2026 **冠军**，随后在 GPT-4o 与 ElevenLabs Scribe 的流水线上重建，加入了带认证的账户体系、计费、可保存的声音与人脸档案，以及一个训练好的 ONNX LSTM 手语模型，并被带到邀请制的 Build with OpenAI 活动上，晋级第一轮。线上地址：[focus-hear-app.vercel.app](https://focus-hear-app.vercel.app/)。 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat&logo=openai&logoColor=white) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white) ![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat&logo=stripe&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white) |
+| [MenYomi](https://github.com/carlmasters02/MenYomi) | 把日本餐厅菜单的照片变成实时的双语菜单。OCR 读取每道菜和价格，再为每一项加上英文翻译、简短介绍、文化注释、过敏原标记、饮食筛选和日语发音朗读。在 Agent Forge AI Hackathon 上独自完成，把六个合作平台（Nosana, Qwen Cloud, GMI Cloud, ai&, Daytona, Qoder）整合在同一个兼容 OpenAI 的封装层之后。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+
+---
+
+### IoT 项目
+
+| 项目 | 用途 | 技术 |
+| --- | --- | --- |
+| [g2-vi-en-realtime](https://github.com/carlmasters02/g2-vi-en-realtime) | 为 Even Realities G2 智能眼镜打造的越南语→英语实时翻译，起因是眼镜自带的翻译应用不支持越南语。麦克风音频通过蓝牙流式传输到 OpenAI 的实时翻译 API，英文会在说话者之后约一秒出现在抬头显示中，结束后还能保存双语文字记录。由于浏览器无法为 WebSocket 设置认证请求头，它搭配 [g2-relay](https://github.com/carlmasters02/g2-relay) 使用：一个把 API 密钥留在服务器端的 Cloudflare Worker 中继。 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI%20Realtime-412991?style=flat&logo=openai&logoColor=white) ![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white) |
 
 ---
 
@@ -72,7 +82,7 @@
 | --- | --- | --- |
 | 2026年7月 | Cursor Tokyo AI Meetup | 在 Datadog Japan 与 Cursor 团队共度的一晚，主题是 Cloud Agents 以及如何组织自主编程的工作流。 |
 | 2026年7月 | Engineering Real World AI with Google and Google DeepMind | 在 Google Japan 举行的主题演讲与 Google AI Studio 工作坊，讲的是如何把 AI 系统从原型推向生产。 |
-| 2026年7月 | Agent Forge AI Hackathon | 一场为期一天的黑客松，围绕可投入生产的 AI 智能体展开，主题是东京与日本文化。单人参赛。 |
+| 2026年7月 | Agent Forge AI Hackathon | 一场为期一天的黑客松，围绕可投入生产的 AI 智能体展开，主题是东京与日本文化。单人参赛，做出了 [MenYomi](https://github.com/carlmasters02/MenYomi)：把日文菜单的照片变成带翻译和过敏原标记的双语菜单。 |
 | 2026年7月 | ai& × Moonshot Tokyo Hackathon Night | 一场只有一个晚上的黑客松，围绕运行在 ai& 推理平台上的 Kimi K2.7 Code 展开。 |
 | 2026年7月 | Vibe Coders Tokyo: Local Models with Gemma 4 | 在本地硬件上运行开放权重模型，以及这件事如何改变成本、延迟和对自己数据的掌控。 |
 | 2026年6月 | OpenAI × Tokyo AI: Build with OpenAI | 邀请制的构建活动。带去了以生产级架构重写的 FocusHear，并晋级第一轮。 |

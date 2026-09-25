@@ -41,6 +41,7 @@
 
 | 프로젝트 | 목적 | 기술 |
 | --- | --- | --- |
+| [AEGIS-threat-dashboard](https://github.com/carlmasters02/AEGIS-threat-dashboard) | 3D 히트맵 지구본을 갖춘 SOC 스타일의 위협 운영 대시보드로, 공개된 실시간 위협 인텔리전스만으로 만들었습니다. Cloudflare Radar의 공격 경로, ransomware.live의 유출 사이트 피해 기관, EPSS 점수가 붙은 CISA KEV, SANS ISC DShield, abuse.ch의 봇넷 C2 피드를 사용합니다. 시뮬레이션 데이터는 전혀 없으며, 소스가 멈추면 해당 패널에 그 사실을 그대로 표시합니다. 의존성 없는 Node 프록시가 모든 피드를 캐시해 제공처의 요청 한도를 지킵니다. [aegisthreatdashboard.com](https://aegisthreatdashboard.com)에서 볼 수 있습니다. | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white) |
 | [network-protocol-analyzer](https://github.com/carlmasters02/network-protocol-analyzer) | 파싱 라이브러리를 전혀 쓰지 않고 Ethernet, IPv4, TCP/UDP, DNS를 원시 바이트에서 직접 해석하는 실시간 패킷 분석기입니다. 터미널 UI로 스트리밍하고, Wireshark용 PCAP을 내보내며, 포트 스캔과 DNS 터널링, ARP 스푸핑을 벌어지는 그 순간에 잡아냅니다. | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white) |
 | [python-static-analyzer](https://github.com/carlmasters02/python-static-analyzer) | 프로그램을 실행하지 않고도 Python 소스에서 SQL 인젝션과 명령어 인젝션을 찾아냅니다. AST 파싱과 소스에서 싱크로 이어지는 오염 추적을 통해 어떤 파일의 몇 번째 줄인지, 왜 악용될 수 있는지까지 보고합니다. 정밀도와 재현율은 라벨이 붙은 취약 샘플로 벤치마크했습니다. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 | [coverage-guided-fuzzer](https://github.com/carlmasters02/coverage-guided-fuzzer) | 무작정 찍어보는 대신 커버리지 피드백에 따라 입력을 변형해 크래시를 찾아내는 AFL 방식의 퍼저입니다. 찾아낸 크래시는 재현 가능한 최소 사례로 줄여 줍니다. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
@@ -54,6 +55,15 @@
 | 프로젝트 | 목적 | 기술 |
 | --- | --- | --- |
 | [FocusHear](https://focus-hear-app.vercel.app/) | 청각에 어려움을 겪는 사람들을 위한 실시간 의사소통 보조 플랫폼입니다. 기존 자막 앱은 그 자리의 모든 사람을 한꺼번에 받아쓰기 때문에 겹쳐진 목소리가 사용자에게 그대로 쏟아집니다. FocusHear는 누구의 목소리를 들을지 직접 고르게 해 주며, 선택적 청취와 ASL 지문자를 위한 수어 브리지, 음성 등록 기반 화자 분리를 갖추고 있습니다. 48시간 만에 만들어 SDGs to Startups 2026에서 **1위**를 차지했고, 이후 GPT-4o와 ElevenLabs Scribe 파이프라인 위에 인증된 계정, 결제, 저장되는 음성 및 얼굴 프로필, 학습된 ONNX LSTM 수어 모델을 더해 다시 만들었습니다. 이를 초청제 Build with OpenAI 행사에 가져가 1차 라운드를 통과했습니다. [focus-hear-app.vercel.app](https://focus-hear-app.vercel.app/)에서 볼 수 있습니다. | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat&logo=openai&logoColor=white) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white) ![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat&logo=stripe&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white) |
+| [MenYomi](https://github.com/carlmasters02/MenYomi) | 일본 음식점 메뉴 사진을 실시간 이중 언어 메뉴로 바꿔 줍니다. OCR로 각 요리와 가격을 읽은 뒤, 항목마다 영어 번역, 짧은 설명, 문화적 해설, 알레르기 표시, 식단 필터, 일본어 발음 음성을 붙입니다. Agent Forge AI Hackathon에서 혼자 만들었으며, 6개 파트너 플랫폼(Nosana, Qwen Cloud, GMI Cloud, ai&, Daytona, Qoder)을 하나의 OpenAI 호환 래퍼 뒤에 통합했습니다. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+
+---
+
+### IoT 프로젝트
+
+| 프로젝트 | 목적 | 기술 |
+| --- | --- | --- |
+| [g2-vi-en-realtime](https://github.com/carlmasters02/g2-vi-en-realtime) | Even Realities G2 스마트 글래스용 실시간 베트남어→영어 번역입니다. 글래스에 기본 탑재된 번역 앱이 베트남어를 지원하지 않아 만들었습니다. 마이크 음성을 블루투스로 OpenAI 실시간 번역 API에 스트리밍하고, 화자보다 약 1초 늦게 영어를 헤드업 디스플레이에 띄우며, 끝난 뒤에는 이중 언어 대본을 저장할 수 있습니다. 브라우저는 WebSocket에 인증 헤더를 붙일 수 없기 때문에, API 키를 서버 쪽에 보관하는 Cloudflare Worker 릴레이 [g2-relay](https://github.com/carlmasters02/g2-relay)와 함께 동작합니다. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI%20Realtime-412991?style=flat&logo=openai&logoColor=white) ![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare%20Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white) |
 
 ---
 
@@ -72,7 +82,7 @@
 | --- | --- | --- |
 | 2026년 7월 | Cursor Tokyo AI Meetup | Datadog Japan에서 Cursor 팀과 함께한 저녁 행사로, Cloud Agents와 자율적인 코딩 워크플로를 어떻게 구성할지를 다뤘습니다. |
 | 2026년 7월 | Engineering Real World AI with Google and Google DeepMind | Google Japan에서 열린 기조 강연과 Google AI Studio 워크숍으로, AI 시스템을 프로토타입에서 프로덕션으로 옮기는 방법을 다뤘습니다. |
-| 2026년 7월 | Agent Forge AI Hackathon | 도쿄와 일본 문화를 주제로, 실제 운영에 쓸 수 있는 AI 에이전트를 만드는 하루짜리 해커톤. 단독으로 참가했습니다. |
+| 2026년 7월 | Agent Forge AI Hackathon | 도쿄와 일본 문화를 주제로, 실제 운영에 쓸 수 있는 AI 에이전트를 만드는 하루짜리 해커톤. 단독으로 참가해, 일본어 메뉴 사진을 번역과 알레르기 표시가 담긴 이중 언어 메뉴로 바꿔 주는 [MenYomi](https://github.com/carlmasters02/MenYomi)를 만들었습니다. |
 | 2026년 7월 | ai& × Moonshot Tokyo Hackathon Night | ai&의 추론 플랫폼에서 돌아가는 Kimi K2.7 Code를 중심으로 한, 하룻저녁짜리 해커톤. |
 | 2026년 7월 | Vibe Coders Tokyo: Local Models with Gemma 4 | 오픈 웨이트 모델을 로컬 하드웨어에서 돌리는 것, 그리고 그것이 비용과 지연 시간, 자기 데이터에 대한 통제권을 어떻게 바꾸는지. |
 | 2026년 6월 | OpenAI × Tokyo AI: Build with OpenAI | 초청제 빌드 행사. 프로덕션 아키텍처로 다시 만든 FocusHear를 들고 나가 1차 라운드를 통과했습니다. |
