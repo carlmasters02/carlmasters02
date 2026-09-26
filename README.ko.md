@@ -72,7 +72,7 @@
 
 | 프로젝트 | 목적 | 기술 |
 | --- | --- | --- |
-| [개인 포트폴리오](https://carlmasters.com) | 제 역량과 성과 등을 소개하는 개인 포트폴리오입니다. [carlmasters.com](https://carlmasters.com)에서 볼 수 있고, 소스는 [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio)에 있습니다. | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [개인 포트폴리오](https://carlmasters.com) | 제 역량과 성과 등을 소개하는 개인 포트폴리오입니다. [carlmasters.com](https://carlmasters.com)에서 볼 수 있습니다. | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | 베트남에서 프리랜서로 일하는 영어 강사를 위해 설계하고 만든 웹사이트입니다. [kadysenglish.com](https://kadysenglish.com)에서 볼 수 있습니다. | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---

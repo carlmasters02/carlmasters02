@@ -72,7 +72,7 @@ De petits outils autonomes qui appuient les langages ci-dessus avec du code qui 
 
 | Projet | Objectif | Technologies |
 | --- | --- | --- |
-| [Mon portfolio personnel](https://carlmasters.com) | Un portfolio personnel où je présente mes compétences, mes réalisations et le reste. En ligne sur [carlmasters.com](https://carlmasters.com), code source sur [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [Mon portfolio personnel](https://carlmasters.com) | Un portfolio personnel où je présente mes compétences, mes réalisations et le reste. En ligne sur [carlmasters.com](https://carlmasters.com). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | Un site conçu et développé pour une professeure d'anglais indépendante au Viêt Nam. En ligne sur [kadysenglish.com](https://kadysenglish.com). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---

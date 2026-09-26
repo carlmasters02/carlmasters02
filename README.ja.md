@@ -72,7 +72,7 @@
 
 | プロジェクト | 概要 | 技術 |
 | --- | --- | --- |
-| [個人ポートフォリオ](https://carlmasters.com) | スキルや実績などを紹介する個人ポートフォリオ。公開先は [carlmasters.com](https://carlmasters.com)、ソースは [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio) にあります。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [個人ポートフォリオ](https://carlmasters.com) | スキルや実績などを紹介する個人ポートフォリオ。公開先は [carlmasters.com](https://carlmasters.com)。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | ベトナムでフリーランスの英語講師をしている方のために設計・構築したウェブサイト。公開先は [kadysenglish.com](https://kadysenglish.com)。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---

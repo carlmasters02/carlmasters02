@@ -72,7 +72,7 @@ Maliliit at sariling-tayong kasangkapan na sumusuporta sa mga wikang nasa itaas 
 
 | Proyekto | Layunin | Teknolohiya |
 | --- | --- | --- |
-| [Ang Aking Personal na Portfolio](https://carlmasters.com) | Isang personal na portfolio kung saan ipinapakita ko ang aking mga kasanayan, tagumpay, at iba pa. Matatagpuan sa [carlmasters.com](https://carlmasters.com), at ang source ay nasa [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [Ang Aking Personal na Portfolio](https://carlmasters.com) | Isang personal na portfolio kung saan ipinapakita ko ang aking mga kasanayan, tagumpay, at iba pa. Matatagpuan sa [carlmasters.com](https://carlmasters.com). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | Isang website na dinisenyo at itinayo para sa isang malayang gurong nagtuturo ng Ingles sa Vietnam. Matatagpuan sa [kadysenglish.com](https://kadysenglish.com). | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---

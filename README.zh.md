@@ -72,7 +72,7 @@
 
 | 项目 | 用途 | 技术 |
 | --- | --- | --- |
-| [我的个人作品集](https://carlmasters.com) | 一个展示我的技能、成果等内容的个人作品集网站。线上地址 [carlmasters.com](https://carlmasters.com)，源码在 [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio)。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [我的个人作品集](https://carlmasters.com) | 一个展示我的技能、成果等内容的个人作品集网站。线上地址 [carlmasters.com](https://carlmasters.com)。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | 为一位在越南从事自由职业的英语老师设计并搭建的网站。线上地址 [kadysenglish.com](https://kadysenglish.com)。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---

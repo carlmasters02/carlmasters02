@@ -72,7 +72,7 @@
 
 | โปรเจกต์ | จุดประสงค์ | เทคโนโลยี |
 | --- | --- | --- |
-| [ผลงานส่วนตัวของผม](https://carlmasters.com) | เว็บไซต์ผลงานส่วนตัวที่ผมนำเสนอทักษะ ความสำเร็จ และอื่น ๆ ดูได้ที่ [carlmasters.com](https://carlmasters.com) ซอร์สโค้ดอยู่ที่ [My-Personal-Portfolio](https://github.com/carlmasters02/My-Personal-Portfolio) | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| [ผลงานส่วนตัวของผม](https://carlmasters.com) | เว็บไซต์ผลงานส่วนตัวที่ผมนำเสนอทักษะ ความสำเร็จ และอื่น ๆ ดูได้ที่ [carlmasters.com](https://carlmasters.com) | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | [Kady's English Classes](https://kadysenglish.com) | เว็บไซต์ที่ออกแบบและสร้างให้กับครูสอนภาษาอังกฤษอิสระในประเทศเวียดนาม ดูได้ที่ [kadysenglish.com](https://kadysenglish.com) | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 
 ---
