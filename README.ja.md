@@ -34,6 +34,7 @@
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | コードベースをスキャンしてハードコードされた秘密情報を検出する CLI ツール。正規表現によるパターンマッチングと Shannon エントロピー解析を組み合わせ、固定パターンでは見逃すランダム性の高い文字列も捉えます。Python での静的解析、ファイル I/O、CLI 設計を身につけるために作りました。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | OpenSSL を用いた AES-256-GCM ファイル暗号化の CLI ツール。鍵は PBKDF2 でパスフレーズから導出します。C における低レベルなメモリ管理、バイナリファイル I/O、暗号ライブラリの統合を身につけるために作りました。 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | リモートの TLS エンドポイントと証明書チェーンを監査する CLI ツール。ハンドシェイクのネゴシエーションと X.509 チェーン検証に、レガシープロトコル専用のプローブを組み合わせ、非推奨のプロトコル、弱い暗号スイート、期限切れ間近の証明書を検出します。Java におけるネットワークソケットプログラミング、公開鍵基盤（PKI）、CLI 設計を身につけるために作りました。 | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 

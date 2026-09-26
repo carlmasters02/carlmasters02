@@ -32,6 +32,7 @@ Small, self-contained tools that back the languages above with working code. Eac
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | A CLI tool that scans codebases for hardcoded secrets, pairing regex pattern matching with Shannon entropy analysis to catch high-randomness strings that fixed patterns miss. Built to work through static analysis, file I/O, and CLI design in Python. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | A CLI tool for AES-256-GCM file encryption built on OpenSSL, deriving its key from a passphrase with PBKDF2. Built to work through low-level memory handling, binary file I/O, and cryptographic library integration in C. | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | A CLI tool that audits remote TLS endpoints and certificate chains, pairing handshake negotiation with X.509 chain validation and separate legacy-protocol probes to catch deprecated protocols, weak cipher suites, and expiring certificates. Built to work through network socket programming, Public Key Infrastructure (PKI), and CLI design in Java. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 

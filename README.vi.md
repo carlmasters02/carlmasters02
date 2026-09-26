@@ -34,6 +34,7 @@ Những công cụ nhỏ, độc lập, chứng minh các ngôn ngữ ở trên 
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | Công cụ dòng lệnh quét mã nguồn để tìm những bí mật bị viết cứng trong code, kết hợp so khớp mẫu bằng biểu thức chính quy với phân tích entropy Shannon để bắt được những chuỗi ngẫu nhiên cao mà các mẫu cố định bỏ sót. Được viết để rèn phân tích tĩnh, thao tác I/O tệp và thiết kế CLI trong Python. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | Công cụ dòng lệnh mã hóa tệp bằng AES-256-GCM dựa trên OpenSSL, sinh khóa từ cụm mật khẩu bằng PBKDF2. Được viết để rèn việc quản lý bộ nhớ ở mức thấp, I/O tệp nhị phân và tích hợp thư viện mật mã trong C. | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | Công cụ dòng lệnh kiểm tra các điểm cuối TLS từ xa và chuỗi chứng chỉ, kết hợp đàm phán bắt tay với xác thực chuỗi X.509 và các lượt dò riêng cho giao thức cũ để phát hiện giao thức đã lỗi thời, bộ mã hóa yếu và chứng chỉ sắp hết hạn. Được viết để rèn lập trình socket mạng, hạ tầng khóa công khai (PKI) và thiết kế CLI trong Java. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 

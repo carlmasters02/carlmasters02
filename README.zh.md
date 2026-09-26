@@ -34,6 +34,7 @@
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | 一个扫描代码库中硬编码密钥的命令行工具，将正则模式匹配与香农熵分析结合起来，捕捉固定模式会漏掉的高随机性字符串。写它是为了打磨 Python 中的静态分析、文件 I/O 和命令行设计。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | 一个基于 OpenSSL 的 AES-256-GCM 文件加密命令行工具，通过 PBKDF2 从口令派生密钥。写它是为了打磨 C 中的底层内存管理、二进制文件 I/O 以及密码学库的集成。 | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | 一个审计远程 TLS 端点与证书链的命令行工具，将握手协商、X.509 证书链验证与专门的旧版协议探测结合起来，找出已弃用的协议、弱密码套件和即将过期的证书。写它是为了打磨 Java 中的网络套接字编程、公钥基础设施（PKI）以及命令行设计。 | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 

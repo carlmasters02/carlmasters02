@@ -34,6 +34,7 @@
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | 코드베이스를 훑어 하드코딩된 비밀 정보를 찾아내는 CLI 도구로, 정규식 패턴 매칭과 섀넌 엔트로피 분석을 함께 써서 고정된 패턴으로는 놓치는 무작위성 높은 문자열까지 잡아냅니다. Python에서의 정적 분석, 파일 I/O, CLI 설계를 익히려고 만들었습니다. | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | OpenSSL을 기반으로 한 AES-256-GCM 파일 암호화 CLI 도구로, PBKDF2를 써서 암호 구절로부터 키를 유도합니다. C에서의 저수준 메모리 처리, 바이너리 파일 I/O, 암호 라이브러리 연동을 익히려고 만들었습니다. | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | 원격 TLS 엔드포인트와 인증서 체인을 감사하는 CLI 도구로, 핸드셰이크 협상과 X.509 체인 검증에 레거시 프로토콜 전용 프로브를 결합해 사용 중단된 프로토콜, 취약한 암호 스위트, 만료가 임박한 인증서를 찾아냅니다. Java에서의 네트워크 소켓 프로그래밍, 공개 키 기반 구조(PKI), CLI 설계를 익히려고 만들었습니다. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 

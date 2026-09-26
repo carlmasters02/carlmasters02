@@ -34,6 +34,7 @@
 | --- | --- | --- |
 | [secret-scanner](https://github.com/carlmasters02/secret-scanner) | เครื่องมือบรรทัดคำสั่งที่สแกนหาความลับซึ่งถูกเขียนฝังไว้ในโค้ด โดยผสานการจับคู่รูปแบบด้วย regex เข้ากับการวิเคราะห์เอนโทรปีแบบแชนนอน เพื่อจับสตริงที่มีความสุ่มสูงซึ่งรูปแบบตายตัวมองข้ามไป เขียนขึ้นเพื่อฝึกการวิเคราะห์แบบสถิต การอ่านเขียนไฟล์ และการออกแบบ CLI ในภาษา Python | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
 | [cryptfile](https://github.com/carlmasters02/cryptfile) | เครื่องมือบรรทัดคำสั่งสำหรับเข้ารหัสไฟล์แบบ AES-256-GCM บนพื้นฐานของ OpenSSL โดยสร้างกุญแจจากวลีรหัสผ่านด้วย PBKDF2 เขียนขึ้นเพื่อฝึกการจัดการหน่วยความจำระดับล่าง การอ่านเขียนไฟล์ไบนารี และการเชื่อมต่อไลบรารีเข้ารหัสในภาษา C | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) ![OpenSSL](https://img.shields.io/badge/-OpenSSL-721412?style=flat&logo=openssl&logoColor=white) |
+| [tlsprobe](https://github.com/carlmasters02/tlsprobe) | เครื่องมือบรรทัดคำสั่งสำหรับตรวจสอบปลายทาง TLS ระยะไกลและสายใบรับรอง โดยผสานการเจรจา handshake เข้ากับการตรวจสอบสายใบรับรอง X.509 และการทดสอบโปรโตคอลรุ่นเก่าแยกต่างหาก เพื่อตรวจหาโปรโตคอลที่เลิกใช้แล้ว ชุดการเข้ารหัสที่อ่อนแอ และใบรับรองที่ใกล้หมดอายุ เขียนขึ้นเพื่อฝึกการเขียนโปรแกรมซ็อกเก็ตเครือข่าย โครงสร้างพื้นฐานกุญแจสาธารณะ (PKI) และการออกแบบ CLI ในภาษา Java | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
 
 ---
 
