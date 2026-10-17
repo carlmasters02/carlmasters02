@@ -47,7 +47,6 @@
 | [python-static-analyzer](https://github.com/carlmasters02/python-static-analyzer) | 不运行程序就能在 Python 源码中找出 SQL 注入和命令注入，通过 AST 解析加上从源到汇的污点追踪，报告出问题的文件、行号，以及它为什么可被利用。查准率与查全率均在带标注的漏洞样本上做过基准测试。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 | [coverage-guided-fuzzer](https://github.com/carlmasters02/coverage-guided-fuzzer) | 一个 AFL 风格的模糊测试工具，依据覆盖率反馈而不是盲目猜测来变异输入以发现崩溃，再把每个崩溃缩减到能够复现的最小用例。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
 | [Crypto-Attack-Lab](https://github.com/carlmasters02/Crypto-Attack-Lab) | 一个动手实践经典密码学攻击的实验室：填充预言机、哈希长度扩展、ECB 剪切粘贴、针对 RSA 的 Wiener 攻击，以及一个计时侧信道。每一项都配有一个存在漏洞的玩具实现、一份可运行的利用代码，以及一篇剖析其背后真实工程失误的文章。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
-| [python-cli-template](https://github.com/carlmasters02/python-cli-template) | 一个可复用的模板，用于建立专业的仓库规范：`src/` 布局、带覆盖率的 pytest、GitHub Actions 持续集成、状态徽章、Dockerfile，以及按语义化版本打标签的发布流程。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 
 ---
 
@@ -57,6 +56,27 @@
 | --- | --- | --- |
 | [FocusHear](https://focus-hear-app.vercel.app/) | 一个面向听障人士的实时辅助沟通平台。现有的字幕应用都是把在场所有人同时转写出来，让用户被层层叠叠的话音淹没；FocusHear 让你自己选择想听谁的声音，具备选择性聆听、用于 ASL 指拼的手语桥接，以及基于声纹注册的说话人分离。它在 48 小时内完成，拿下 SDGs to Startups 2026 **冠军**，随后在 GPT-4o 与 ElevenLabs Scribe 的流水线上重建，加入了带认证的账户体系、计费、可保存的声音与人脸档案，以及一个训练好的 ONNX LSTM 手语模型，并被带到邀请制的 Build with OpenAI 活动上，晋级第一轮。线上地址：[focus-hear-app.vercel.app](https://focus-hear-app.vercel.app/)。 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat&logo=openai&logoColor=white) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white) ![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat&logo=stripe&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white) |
 | [MenYomi](https://github.com/carlmasters02/MenYomi) | 把日本餐厅菜单的照片变成实时的双语菜单。OCR 读取每道菜和价格，再为每一项加上英文翻译、简短介绍、文化注释、过敏原标记、饮食筛选和日语发音朗读。在 Agent Forge AI Hackathon 上独自完成，把六个合作平台（Nosana, Qwen Cloud, GMI Cloud, ai&, Daytona, Qoder）整合在同一个兼容 OpenAI 的封装层之后。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+
+---
+
+### 黑客松项目
+
+| 项目 | 用途 | 技术 |
+| --- | --- | --- |
+| [ai-wargame](https://github.com/carlmasters02/ai-wargame) | 两个 LLM 智能体在一个程序化生成的企业网络上展开回合制红蓝对抗：DeepSeek 红队在战争迷雾中猎取"皇冠明珠"数据库，Kimi 蓝队则在噪声告警中研判分诊。对战在可交互的网络拓扑图上实时展开，人类裁判可以注入突发事件或中途更换模型，每场比赛都能导出为 MITRE ATT&CK 与 STIX 工件。纯模拟运行：漏洞只是抽象的游戏对象，没有任何利用代码，也没有真实流量。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Neo4j](https://img.shields.io/badge/-Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| [disaster-mutual-aid-matcher](https://github.com/carlmasters02/disaster-mutual-aid-matcher) | 按照日本的个别避难计划制度，为需要帮助避难的居民制定避难方案并进行压力测试。确定性的求解器负责把居民与本地援助者配对，并在模拟地震阻断道路、断电、火势蔓延时实时重新规划；LLM 负责受理信息解析、日文计划书撰写和多语言通知，Neo4j 作为权威数据存储，所有推理都放在日本境内的 GPU 上运行。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Neo4j](https://img.shields.io/badge/-Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+
+---
+
+### 模板
+
+| 项目 | 用途 | 技术 |
+| --- | --- | --- |
+| [python-cli-template](https://github.com/carlmasters02/python-cli-template) | 一个可复用的模板，用于建立专业的仓库规范：`src/` 布局、带覆盖率的 pytest、GitHub Actions 持续集成、状态徽章、Dockerfile，以及按语义化版本打标签的发布流程。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| [static-site-template](https://github.com/carlmasters02/static-site-template) | 一个可复用的模板，用于搭建无后端、纯 HTML/CSS/JS 的静态网站，带测试、GitHub Actions CI 和 Dockerfile。 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| [flask-webapp-template](https://github.com/carlmasters02/flask-webapp-template) | 一个可复用的 Python + Flask Web 应用模板，带测试、GitHub Actions CI 和 Dockerfile。 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| [express-webapp-template](https://github.com/carlmasters02/express-webapp-template) | 一个可复用的 Node + Express Web 应用模板，配纯 HTML/CSS/JS 前端，带测试、GitHub Actions CI 和 Dockerfile。 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| [react-express-template](https://github.com/carlmasters02/react-express-template) | 一个可复用的模板：React (Vite) 前端搭配 Node/Express API 后端，带测试、GitHub Actions CI 和 Dockerfile。 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 
 ---
 
