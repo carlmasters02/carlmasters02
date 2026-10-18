@@ -100,6 +100,8 @@ Small, self-contained tools that back the languages above with working code. Eac
 
 | Date | Event | Notes |
 | --- | --- | --- |
+| October 2026 | Tokyo Agent Hackathon | A one-day open-innovation hackathon hosted by +81 Builders, sponsored by Neo4j and ai&. Entered solo and built [AI Wargame](https://github.com/carlmasters02/ai-wargame), a live red-versus-blue simulation where a DeepSeek attacker and a Kimi defender fight over a procedurally generated corporate network on a Neo4j graph. |
+| August 2026 | HITCON 2026 | Two days at Hacks In Taiwan Conference in Taipei, themed “When AI Acts: Hacking the Age of Agentic Systems.” Talks covered AI-driven vulnerability disclosure, agentic SOC automation, embedded hardware research, supply chain provenance, and nation-state tradecraft, closing with Orange Tsai's zero-click Edge sandbox escape. |
 | July 2026 | Cursor Tokyo AI Meetup | An evening with the Cursor team at Datadog Japan, covering Cloud Agents and how to structure autonomous coding workflows. |
 | July 2026 | Engineering Real World AI with Google and Google DeepMind | Keynote and a Google AI Studio workshop at Google Japan on taking AI systems from prototype to production. |
 | July 2026 | Agent Forge AI Hackathon | A one-day hackathon on production-ready AI agents themed around Tokyo and Japanese culture. Entered solo and built [MenYomi](https://github.com/carlmasters02/MenYomi), which turns a photo of a Japanese menu into a bilingual menu with translations and allergen flags. |

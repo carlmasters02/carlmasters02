@@ -102,6 +102,8 @@
 
 | 日付 | イベント | 内容 |
 | --- | --- | --- |
+| 2026年10月 | Tokyo Agent Hackathon | +81 Builders が主催し、Neo4j と ai& が協賛したオープンイノベーションがテーマの一日ハッカソン。ソロで参加し、DeepSeek の攻撃側と Kimi の防御側が、手続き的に生成された企業ネットワークを Neo4j グラフ上で奪い合うリアルタイムのレッド対ブルーのシミュレーション [AI Wargame](https://github.com/carlmasters02/ai-wargame) を作りました。 |
+| 2026年8月 | HITCON 2026 | 台北で開かれた Hacks In Taiwan Conference に 2 日間参加。テーマは「When AI Acts: Hacking the Age of Agentic Systems」。AI による脆弱性開示、エージェント型 SOC の自動化、組み込みハードウェアの研究、サプライチェーンの来歴、国家レベルの攻撃手法などが取り上げられ、最後は Orange Tsai による Edge のゼロクリック サンドボックス脱出の講演でした。 |
 | 2026年7月 | Cursor Tokyo AI Meetup | Datadog Japan で開かれた Cursor チームとの夜。Cloud Agents と、自律的なコーディングワークフローの組み立て方がテーマでした。 |
 | 2026年7月 | Engineering Real World AI with Google and Google DeepMind | Google Japan での基調講演と Google AI Studio ワークショップ。AI システムをプロトタイプから本番へ持っていく方法について。 |
 | 2026年7月 | Agent Forge AI Hackathon | 東京と日本文化をテーマにした、本番投入できる AI エージェントのための一日ハッカソン。ソロで参加し、日本語メニューの写真を翻訳とアレルゲン表示付きの二か国語メニューに変える [MenYomi](https://github.com/carlmasters02/MenYomi) を作りました。 |

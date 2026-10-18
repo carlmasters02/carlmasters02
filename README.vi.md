@@ -102,6 +102,8 @@ Những công cụ nhỏ, độc lập, chứng minh các ngôn ngữ ở trên 
 
 | Thời gian | Sự kiện | Ghi chú |
 | --- | --- | --- |
+| Tháng 10, 2026 | Tokyo Agent Hackathon | Hackathon một ngày theo chủ đề đổi mới mở do +81 Builders tổ chức, với Neo4j và ai& là nhà tài trợ. Tham gia một mình và xây dựng [AI Wargame](https://github.com/carlmasters02/ai-wargame), một mô phỏng đỏ đấu xanh trực tiếp, nơi bên tấn công DeepSeek và bên phòng thủ Kimi giành giật một mạng doanh nghiệp được sinh tự động trên đồ thị Neo4j. |
+| Tháng 8, 2026 | HITCON 2026 | Hai ngày tại Hacks In Taiwan Conference ở Đài Bắc, với chủ đề “When AI Acts: Hacking the Age of Agentic Systems.” Các bài nói đề cập đến công bố lỗ hổng trong thời AI, tự động hóa SOC bằng agent, nghiên cứu phần cứng nhúng, nguồn gốc chuỗi cung ứng và chiến thuật của tin tặc cấp quốc gia, khép lại với màn thoát sandbox zero-click trên Edge của Orange Tsai. |
 | Tháng 7, 2026 | Cursor Tokyo AI Meetup | Một buổi tối cùng đội ngũ Cursor tại Datadog Japan, xoay quanh Cloud Agents và cách tổ chức các quy trình lập trình tự hành. |
 | Tháng 7, 2026 | Engineering Real World AI with Google and Google DeepMind | Bài phát biểu chính và một workshop Google AI Studio tại Google Japan về việc đưa hệ thống AI từ nguyên mẫu ra sản phẩm thật. |
 | Tháng 7, 2026 | Agent Forge AI Hackathon | Hackathon một ngày về các AI agent sẵn sàng cho môi trường thật, lấy chủ đề Tokyo và văn hóa Nhật Bản. Tham gia một mình và xây dựng [MenYomi](https://github.com/carlmasters02/MenYomi), biến ảnh chụp thực đơn tiếng Nhật thành thực đơn song ngữ kèm bản dịch và cảnh báo dị ứng. |
