@@ -124,3 +124,5 @@ Small, self-contained tools that back the languages above with working code. Eac
 
 - 🌐 Website: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ Developer email: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com), for bug reports, issues, and questions about my code
+- 📧 Professional email: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com), for professional connections, job inquiries, and internships

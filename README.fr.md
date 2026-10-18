@@ -126,3 +126,5 @@ De petits outils autonomes qui appuient les langages ci-dessus avec du code qui 
 
 - 🌐 Site web : [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn : [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ E-mail développeur : [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com), pour signaler des bugs ou des problèmes et poser des questions sur mon code
+- 📧 E-mail professionnel : [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com), pour les contacts professionnels, les offres d'emploi et les stages

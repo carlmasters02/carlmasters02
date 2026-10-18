@@ -126,3 +126,5 @@
 
 - 🌐 เว็บไซต์: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ อีเมลสำหรับนักพัฒนา: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com) (แจ้งบั๊ก ปัญหา และคำถามเกี่ยวกับโค้ดของผม)
+- 📧 อีเมลสำหรับงาน: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com) (การติดต่อทางวิชาชีพ สอบถามเรื่องงาน และการฝึกงาน)

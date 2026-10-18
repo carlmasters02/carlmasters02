@@ -126,3 +126,5 @@
 
 - 🌐 网站：[carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn：[carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ 开发者邮箱：[carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com)（报告 bug、反馈问题、咨询代码相关问题）
+- 📧 工作邮箱：[carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com)（职业交流、工作机会、实习咨询）

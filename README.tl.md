@@ -126,3 +126,5 @@ Maliliit at sariling-tayong kasangkapan na sumusuporta sa mga wikang nasa itaas 
 
 - 🌐 Website: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ Email para sa developer: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com), para sa pag-uulat ng bug, mga isyu, at mga tanong tungkol sa aking code
+- 📧 Propesyonal na email: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com), para sa mga propesyonal na koneksyon, alok sa trabaho, at internship

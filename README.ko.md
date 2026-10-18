@@ -126,3 +126,5 @@
 
 - 🌐 웹사이트: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ 개발자 이메일: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com) (버그 제보, 이슈, 코드 관련 질문)
+- 📧 업무용 이메일: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com) (업무상 교류, 채용 문의, 인턴십)

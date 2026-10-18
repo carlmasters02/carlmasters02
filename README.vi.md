@@ -126,3 +126,5 @@ Những công cụ nhỏ, độc lập, chứng minh các ngôn ngữ ở trên 
 
 - 🌐 Website: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
+- 🛠️ Email kỹ thuật: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com), để báo lỗi, phản hồi sự cố và đặt câu hỏi về mã nguồn của tôi
+- 📧 Email công việc: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com), dành cho kết nối nghề nghiệp, cơ hội việc làm và thực tập
