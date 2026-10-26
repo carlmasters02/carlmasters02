@@ -8,7 +8,7 @@ Cybersecurity-Student an der Temple University Japan (dem japanischen Campus der
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carl-masters-724951297)
 ![Standort](https://img.shields.io/badge/Tokio,%20Japan-informational?style=flat&logo=googlemaps&logoColor=white)
 
-*Die verlinkten Repositorys, Artikel und Websites sind auf Englisch.*
+*Die verlinkten Repositorys, Artikel und Webseiten sind auf Englisch.*
 
 ---
 
@@ -74,7 +74,7 @@ Kleine, eigenständige Werkzeuge, die die oben genannten Sprachen mit funktionie
 | Projekt | Zweck | Technologien |
 | --- | --- | --- |
 | [python-cli-template](https://github.com/carlmasters02/python-cli-template) | Eine wiederverwendbare Vorlage für professionelle Repository-Hygiene: `src/`-Struktur, pytest mit Coverage, CI mit GitHub Actions, Status-Badges, ein Dockerfile und Releases mit Semver-Tags. | [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
-| [static-site-template](https://github.com/carlmasters02/static-site-template) | Eine wiederverwendbare Vorlage für eine statische Website in reinem HTML/CSS/JS ohne Backend, mit Tests, CI mit GitHub Actions und einem Dockerfile. | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
+| [static-site-template](https://github.com/carlmasters02/static-site-template) | Eine wiederverwendbare Vorlage für eine statische Webseite in reinem HTML/CSS/JS ohne Backend, mit Tests, CI mit GitHub Actions und einem Dockerfile. | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
 | [flask-webapp-template](https://github.com/carlmasters02/flask-webapp-template) | Eine wiederverwendbare Vorlage für Webanwendungen mit Python und Flask, mit Tests, CI mit GitHub Actions und einem Dockerfile. | [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
 | [express-webapp-template](https://github.com/carlmasters02/express-webapp-template) | Eine wiederverwendbare Vorlage für Webanwendungen mit Node und Express und einem Frontend in reinem HTML/CSS/JS, mit Tests, CI mit GitHub Actions und einem Dockerfile. | [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
 | [react-express-template](https://github.com/carlmasters02/react-express-template) | Eine wiederverwendbare Vorlage für ein React-Frontend (Vite) mit einer Node/Express-API dahinter, mit Tests, CI mit GitHub Actions und einem Dockerfile. | [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/) [![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/) [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) |
@@ -89,19 +89,19 @@ Kleine, eigenständige Werkzeuge, die die oben genannten Sprachen mit funktionie
 
 ---
 
-### Portfolio & Websites
+### Portfolio & Webseiten
 
 | Projekt | Zweck | Technologien |
 | --- | --- | --- |
 | [PickYourLinux](https://github.com/carlmasters02/PickYourLinux) | Ein Leitfaden zur Wahl einer Linux-Distribution. Ein interaktiver Stammbaum führt 56 Distributionen auf ihre Wurzeln Debian, Fedora und Arch zurück, und ein mehrstufiges Quiz fragt zuerst, was Sie einrichten möchten (einen Desktop, einen Server, ein Security-Toolkit, ein auf Privatsphäre ausgerichtetes System, ein Gaming-Handheld oder ein IoT-Board), grenzt die Auswahl an jedem Zwischenstopp weiter ein und empfiehlt dann eine konkrete Distribution und Edition samt Begründung, Hinweisen und dem, was vor dem Umstieg zu erledigen ist. Gebaut mit reinem HTML, CSS und JavaScript, ohne Build-Schritt und ohne Anfragen an Dritte. | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![D3.js](https://img.shields.io/badge/-D3.js-F9A03C?style=flat&logo=d3&logoColor=white)](https://d3js.org/) |
 | [Mein persönliches Portfolio](https://carlmasters.com) | Ein persönliches Portfolio, in dem ich meine Fähigkeiten, Erfolge und mehr vorstelle. Live unter [carlmasters.com](https://carlmasters.com). | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| [Kady's English Classes](https://kadysenglish.com) | Eine Website, die ich für eine freiberufliche Englischlehrerin in Vietnam entworfen und gebaut habe. Live unter [kadysenglish.com](https://kadysenglish.com). | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| [Kady's English Classes](https://kadysenglish.com) | Eine Webseite, die ich für eine freiberufliche Englischlehrerin in Vietnam entworfen und gebaut habe. Live unter [kadysenglish.com](https://kadysenglish.com). | [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 
 ---
 
-### Events & Hackathons
+### Veranstaltungen & Hackathons
 
-| Datum | Event | Notizen |
+| Datum | Veranstaltung | Notizen |
 | --- | --- | --- |
 | Oktober 2026 | Tokyo Agent Hackathon | Ein eintägiger Open-Innovation-Hackathon, ausgerichtet von +81 Builders und gesponsert von Neo4j und ai&. Allein teilgenommen und [AI Wargame](https://github.com/carlmasters02/ai-wargame) gebaut: eine Live-Simulation Rot gegen Blau, in der ein DeepSeek-Angreifer und ein Kimi-Verteidiger um ein prozedural generiertes Unternehmensnetzwerk auf einem Neo4j-Graphen kämpfen. |
 | August 2026 | HITCON 2026 | Zwei Tage auf der Hacks In Taiwan Conference in Taipeh unter dem Motto „When AI Acts: Hacking the Age of Agentic Systems“. Die Vorträge behandelten KI-gestützte Offenlegung von Schwachstellen, agentenbasierte SOC-Automatisierung, Forschung an eingebetteter Hardware, Herkunftsnachweise in der Lieferkette und die Vorgehensweisen staatlicher Angreifer, zum Abschluss Orange Tsais Zero-Click-Ausbruch aus der Sandbox von Edge. |
@@ -125,9 +125,9 @@ Kleine, eigenständige Werkzeuge, die die oben genannten Sprachen mit funktionie
 
 ---
 
-### Links
+### Kontakt
 
-- 🌐 Website: [carlmasters.com](https://carlmasters.com)
+- 🌐 Webseite: [carlmasters.com](https://carlmasters.com)
 - 💼 LinkedIn: [carl-masters](https://www.linkedin.com/in/carl-masters-724951297)
 - 🛠️ Entwickler-E-Mail: [carl.masters.dev@protonmail.com](mailto:carl.masters.dev@protonmail.com), für Fehlerberichte, Issues und Fragen zu meinem Code
 - 📧 Berufliche E-Mail: [carl.masters.professional@protonmail.com](mailto:carl.masters.professional@protonmail.com), für berufliche Kontakte, Jobanfragen und Praktika
